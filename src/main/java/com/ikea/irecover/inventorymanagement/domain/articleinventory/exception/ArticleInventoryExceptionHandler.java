@@ -1,4 +1,4 @@
-package com.ikea.irecover.inventorymanagement.domain.inventory.exception;
+package com.ikea.irecover.inventorymanagement.domain.articleinventory.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -6,12 +6,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
-public class InventoryExceptionHandler {
+public class ArticleInventoryExceptionHandler {
 
-    @ExceptionHandler(InventoryEntityNotFoundException.class)
+    @ExceptionHandler(ArticlePartNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    public String handleInventoryEntityNotFoundException(InventoryEntityNotFoundException e) {
-        return e.getMessage();
+    public String handleArticlePartNotFoundException(ArticlePartNotFoundException ex) {
+        return ex.getMessage();
     }
-
 }

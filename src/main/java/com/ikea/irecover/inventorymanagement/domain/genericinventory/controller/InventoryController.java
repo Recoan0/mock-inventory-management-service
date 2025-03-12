@@ -1,9 +1,9 @@
-package com.ikea.irecover.inventorymanagement.domain.inventory.controller;
+package com.ikea.irecover.inventorymanagement.domain.genericinventory.controller;
 
-import com.ikea.irecover.inventorymanagement.domain.inventory.entity.InventoryEntryEntity;
-import com.ikea.irecover.inventorymanagement.domain.inventory.model.InventoryEntryDto;
-import com.ikea.irecover.inventorymanagement.domain.inventory.model.UpdateInventoryEntryDto;
-import com.ikea.irecover.inventorymanagement.domain.inventory.service.InventoryService;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.entity.InventoryEntryEntity;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.model.InventoryEntryDto;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.model.UpdateInventoryEntryDto;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.service.InventoryService;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.DeleteMapping;

@@ -1,4 +1,4 @@
-package com.ikea.irecover.inventorymanagement.domain.inventory.entity;
+package com.ikea.irecover.inventorymanagement.domain.genericinventory.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

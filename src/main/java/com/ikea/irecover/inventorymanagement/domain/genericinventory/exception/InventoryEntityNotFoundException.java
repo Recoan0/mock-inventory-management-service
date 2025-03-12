@@ -1,6 +1,4 @@
-package com.ikea.irecover.inventorymanagement.domain.inventory.exception;
-
-import lombok.experimental.StandardException;
+package com.ikea.irecover.inventorymanagement.domain.genericinventory.exception;
 
 import java.util.UUID;
 

@@ -1,11 +1,11 @@
-package com.ikea.irecover.inventorymanagement.domain.inventory.service;
+package com.ikea.irecover.inventorymanagement.domain.genericinventory.service;
 
-import com.ikea.irecover.inventorymanagement.domain.inventory.entity.InventoryEntryEntity;
-import com.ikea.irecover.inventorymanagement.domain.inventory.exception.InventoryEntityNotFoundException;
-import com.ikea.irecover.inventorymanagement.domain.inventory.mapper.InventoryEntryEntityMapper;
-import com.ikea.irecover.inventorymanagement.domain.inventory.model.InventoryEntryDto;
-import com.ikea.irecover.inventorymanagement.domain.inventory.model.UpdateInventoryEntryDto;
-import com.ikea.irecover.inventorymanagement.domain.inventory.repository.InventoryEntryRepository;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.entity.InventoryEntryEntity;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.exception.InventoryEntityNotFoundException;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.mapper.InventoryEntryEntityMapper;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.model.InventoryEntryDto;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.model.UpdateInventoryEntryDto;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.repository.InventoryEntryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

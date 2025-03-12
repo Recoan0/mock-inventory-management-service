@@ -1,6 +1,6 @@
-package com.ikea.irecover.inventorymanagement.domain.inventory.repository;
+package com.ikea.irecover.inventorymanagement.domain.genericinventory.repository;
 
-import com.ikea.irecover.inventorymanagement.domain.inventory.entity.InventoryEntryEntity;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.entity.InventoryEntryEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

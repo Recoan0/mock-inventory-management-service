@@ -1,8 +1,9 @@
-package com.ikea.irecover.inventorymanagement.domain.inventory.mapper;
+package com.ikea.irecover.inventorymanagement.domain.genericinventory.mapper;
 
-import com.ikea.irecover.inventorymanagement.domain.inventory.entity.InventoryEntryEntity;
-import com.ikea.irecover.inventorymanagement.domain.inventory.model.InventoryEntryDto;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.entity.InventoryEntryEntity;
+import com.ikea.irecover.inventorymanagement.domain.genericinventory.model.InventoryEntryDto;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;
 
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
